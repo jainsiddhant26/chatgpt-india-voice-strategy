@@ -5,6 +5,15 @@
 
 ---
 
+## 🔗 Interactive Prototype
+
+> **⭐ Try the feature before reading the docs:**  
+> 👉 **[chat-confirm-buddy.lovable.app](https://chat-confirm-buddy.lovable.app)**
+
+This is a working prototype of the **Review-Before-Send** voice input feature — the core solution proposed in this case study. Tap the mic, speak, review your transcription, and send with confidence.
+
+---
+
 ## 🧭 What Is This Project?
 
 A full end-to-end PM case study exploring **why Indian students don't use voice input on ChatGPT** — and designing a solution to fix it.
@@ -62,7 +71,7 @@ Start here for context. India has a **$957M voice-AI market** growing at 35.7% C
 ### 3️⃣ [`03-prd/`](./03-prd/)
 The **PRD for "Review-Before-Send"** — a trust-first voice UX feature. Covers:
 - Solution comparison (3 directions evaluated)
-- Feature spec with 5-screen prototype flow
+- Feature spec with 5-screen prototype flow ([**live prototype ↗**](https://chat-confirm-buddy.lovable.app))
 - Success metrics (28% → 52%+ adoption, MUST HIT)
 - 12-week sprint plan: Build → Test → Scale
 
@@ -106,6 +115,7 @@ The **PRD for "Review-Before-Send"** — a trust-first voice UX feature. Covers:
 - **Google Forms** — Survey design & data collection
 - **Excel** — Raw data analysis
 - **Figma** — Prototype wireframes
+- **Lovable** — Interactive prototype ([chat-confirm-buddy.lovable.app](https://chat-confirm-buddy.lovable.app))
 - **Gamma AI** — Presentation design
 - Product frameworks: Problem framing, Persona development, Solution trade-off analysis, PRD writing
 
