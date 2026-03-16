@@ -41,6 +41,52 @@ The project follows a real PM workflow:
 
 ---
 
+## 👥 User Segments
+
+The research identified **three distinct behavioral segments** among Indian college students (18–24):
+
+| Segment | Size | Behaviour | Core Need |
+|---------|------|-----------|-----------|
+| 🔴 **Voice Avoiders** | ~24% | Never tried voice; type everything | Proof that voice is accurate & safe before they'll risk it |
+| 🟡 **Lapsed Tryers** | ~48% | Tried voice, had a bad experience, stopped | Control over what gets sent; one bad send killed trust |
+| 🟢 **Committed Voice Users** | ~28% | Use voice regularly despite friction | Faster workflows; willing to re-do if transcript is wrong |
+
+### Why This Segmentation Matters for the Solution
+- **Lapsed Tryers are the primary target** — they're the largest group and already sold on the *idea* of voice. One trust-restoring feature can re-activate them.
+- **Voice Avoiders** are a secondary unlock — if the review step reduces perceived risk, some will try for the first time.
+- **Committed Users** benefit from the edit box as a speed/accuracy upgrade, not just a trust layer.
+
+---
+
+## 📋 User Survey
+
+### Methodology
+- **Format:** Google Form (structured + Likert scale questions)
+- **Sample:** n = 60 Indian college students
+- **Age range:** 18–24 years
+- **Recruitment:** Peer networks & college WhatsApp groups (India-specific distribution)
+- **Timeline:** January 2026
+
+### What We Asked
+The survey was designed around three core questions a PM needs answered before writing a PRD:
+
+1. **Behaviour** — Do you currently use voice on ChatGPT? How often?
+2. **Blockers** — What stops you from using / continuing to use voice?
+3. **Willingness** — Would specific features change your behaviour? (conjoint-style)
+
+### Key Survey Findings
+
+| Question | Top Response | % |
+|----------|-------------|---|
+| Primary reason for not using voice | "Can't see what I said before it sends" | 42% |
+| Secondary reason | "Accent / dialect accuracy issues" | 32% |
+| Would Review-Before-Send increase usage? | "Yes, definitely" | 78.4% |
+| Preferred input mode for complex queries | Voice (if editable) | 61% |
+
+> 📂 Raw responses available in [`02-user-research/Customer-Feedback.xlsx`](./02-user-research/Customer-Feedback.xlsx)
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -103,7 +149,7 @@ The **PRD for "Review-Before-Send"** — a trust-first voice UX feature. Covers:
 ## 🗓️ 12-Week Launch Plan
 
 | Phase | Duration | What Happens |
-|-------|----------|--------------|
+|-------|----------|--------------| 
 | Build | Weeks 1–4 | Design + code voice feature |
 | Test | Weeks 5–8 | Test with 50 internal users |
 | Scale | Weeks 9–12 | 10K users → 100% rollout |
